@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'eloquia';
+  src: url('typekiln_-_eloquiadisplay-extrabold-webfont.woff2') format('woff2'),
+       url('typekiln_-_eloquiadisplay-extrabold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'resolutenf';
+  src: url('resolute_nf_w01_regular-webfont.woff2') format('woff2'),
+       url('resolute_nf_w01_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+h1 {
+  font-family: 'resolutenf';
+  font-size: x-large;
+}
+
+h5 {
+  font-family: 'eloquia';
+}

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Missions Balance Tracker</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/styles.css">
+  </head>
+
+  <body>
+    <div class="d-flex justify-content-center pt-2">
+      <h1>Binamon Missions Tracker 🐉</h1> 
+    </div>
+    <div class=" d-flex justify-content-center row pt-3">
+      <!-- Mission 1-->
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title center" id="status1">Mission 1</h5>
+          <h6 class="card-subtitle mb-2 text-muted" id="mission1_timeleft"></h6>
+          <p class="card-text" id="mission1"></p>
+          <a target="_blank" rel="noopener noreferrer" href="https://bscscan.com/address/0xC7FbF510f0745B9Ecce36D349F689C885690FFb4" class="card-link">BSCscan</a>
+        </div>
+      </div>
+      <!-- Mission 2-->
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title" id="status2">Mission 2</h5>
+          <h6 class="card-subtitle mb-2 text-muted" id="mission2_timeleft"></h6>
+          <p class="card-text" id="mission2"></p>
+          <a target="_blank" rel="noopener noreferrer" href="https://bscscan.com/address/0x8E18be8BF645e884c673d22d2D307ae4Aa4759F1" class="card-link">BSCscan</a>
+        </div>
+      </div>
+      <!-- Mission 3-->
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title" id="status3">Mission 3</h5>
+          <h6 class="card-subtitle mb-2 text-muted" id="mission3_timeleft"></h6>
+          <p class="card-text" id="mission3"></p>
+          <a target="_blank" rel="noopener noreferrer" href="https://bscscan.com/address/0xe5F84d6c9AE7FFa51D0575De7D2dA734e4f44b28" class="card-link">BSCscan</a>
+        </div>
+      </div>
+      <!-- Mission 4-->
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title" id="status4">Mission 4</h5>
+          <h6 class="card-subtitle mb-2 text-muted" id="mission4_timeleft"></h6>
+          <p class="card-text" id="mission4"></p>
+          <a target="_blank" rel="noopener noreferrer" href="https://bscscan.com/address/0xEb19bFe72e9919D7c30247C4961a9AcB2C33bf01" class="card-link">BSCscan</a>
+        </div>
+      </div>
+      <!-- Mission 5-->
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title" id="status5">Mission 5</h5>
+          <h6 class="card-subtitle mb-2 text-muted" id="mission5_timeleft"></h6>
+          <p class="card-text" id="mission5"></p>
+          <a target="_blank" rel="noopener noreferrer" href="https://bscscan.com/address/0x19713304faFf9b05Ef9b7Ae603f3B2282633BBd8" class="card-link">BSCscan</a>
+        </div>
+      </div>
+      <!-- Mission 6-->
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title" id="status6">Mission 6</h5>
+          <h6 class="card-subtitle mb-2 text-muted" id="mission6_timeleft"></h6>
+          <p class="card-text" id="mission6"></p>
+          <a target="_blank" rel="noopener noreferrer" href="https://bscscan.com/address/0x7DBb99EDd369Ce3B01B83C9d109Ba211e3d77A68" class="card-link">BSCscan</a>
+        </div>
+      </div>
+      <!-- Mission 7-->
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title" id="status7">Mission 7</h5>
+          <h6 class="card-subtitle mb-2 text-muted" id="mission7_timeleft"></h6>
+          <p class="card-text" id="mission7"></p>
+          <a target="_blank" rel="noopener noreferrer" href="https://bscscan.com/address/0xa9Fb5E53e45472C776FBF969f7a15c4207B0bad7" class="card-link">BSCscan</a>
+        </div>
+      </div>
+      <!-- Mission 8-->
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title" id="status8">Mission 8</h5>
+          <h6 class="card-subtitle mb-2 text-muted" id="mission8_timeleft"></h6>
+          <p class="card-text" id="mission8"></p>
+          <a target="_blank" rel="noopener noreferrer" href="https://bscscan.com/address/0xE879877D6e6FAA429B9963b0D01c1Dac880Dc244" class="card-link">BSCscan</a>
+        </div>
+      </div>
+      <!-- Mission 9-->
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title" id="status9">Mission 9</h5>
+          <h6 class="card-subtitle mb-2 text-muted" id="mission9_timeleft"></h6>
+          <p class="card-text" id="mission9"></p>
+          <a target="_blank" rel="noopener noreferrer" href="https://bscscan.com/address/0x8C15F3FCa9B009e108528751E5614318D7B10f91" class="card-link">BSCscan</a>
+        </div>
+      </div>
+      <!-- Mission 10-->
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title" id="status10">Mission 10</h5>
+          <h6 class="card-subtitle mb-2 text-muted" id="mission10_timeleft"></h6>
+          <p class="card-text" id="mission10"></p>
+          <a target="_blank" rel="noopener noreferrer" href="https://bscscan.com/address/0x480FAc2dbd3532D37e07BF478dF5d019208adB32" class="card-link">BSCscan</a>
+        </div>
+      </div>
+      <!-- Mission 11-->
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title" id="status11">Mission 11</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Ended 💀</h6>
+          <p class="card-text" id="mission11"></p>
+          <a target="_blank" rel="noopener noreferrer" href="https://bscscan.com/address/0x5785C96001671522808A8e773288dCa0Eb7bd63c" class="card-link">BSCscan</a>
+        </div>
+      </div>
+      <!-- Mission 12-->
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title" id="status12">Mission 12</h5>
+          <h6 class="card-subtitle mb-2 text-muted" id="mission12_timeleft"></h6>
+          <p class="card-text" id="mission12"></p>
+          <a target="_blank" rel="noopener noreferrer" href="https://bscscan.com/address/0x0F38BC6604CfDC93FDF2468Dd1f0193a3d463281" class="card-link">BSCscan</a>
+        </div>
+      </div>
+      <!-- Mission 13-->
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title" id="status13">Mission 13</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Ended 💀</h6>
+          <p class="card-text" id="mission13"></p>
+          <a target="_blank" rel="noopener noreferrer" href="https://bscscan.com/address/0xB2D2f8223140611e1c2a752d62001E6b6BdC0889" class="card-link">BSCscan</a>
+        </div>
+      </div>
+      <!-- Mission 14-->
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title" id="status14">Mission 14</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Ended 💀</h6>
+          <p class="card-text" id="mission14"></p>
+          <a target="_blank" rel="noopener noreferrer" href="https://bscscan.com/address/0x7d0cdd23D8F0b8A9D0d6f5Eef77ADb4BaA551Afb" class="card-link">BSCscan</a>
+        </div>
+      </div>
+      <!-- Mission 15 -->
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title" id="status15"></h5>
+          <h6 class="card-subtitle mb-2 text-muted" id="mission15_timeleft"></h6>
+          <p class="card-text" id="mission15"></p>
+          <a target="_blank" rel="noopener noreferrer" href="https://bscscan.com/address/0x943FC42488e8fCc6B3B19E61E33C07143C14F9C8" class="card-link">BSCscan</a>
+        </div>
+      </div>
+      <!-- Mission 16 -->
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title" id="status16"></h5>
+          <h6 class="card-subtitle mb-2 text-muted" id="mission16_timeleft"></h6>
+          <p class="card-text" id="mission16"></p>
+          <a target="_blank" rel="noopener noreferrer" href="https://bscscan.com/address/0xEB37a4517A85AAE584cCd8BB13B5C050fFF4A15F" class="card-link">BSCscan</a>
+        </div>
+      </div>
+      <!-- Mission 17 -->
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title" id="status17"></h5>
+          <h6 class="card-subtitle mb-2 text-muted" id="mission17_timeleft"></h6>
+          <p class="card-text" id="mission17"></p>
+          <a target="_blank" rel="noopener noreferrer" href="https://bscscan.com/address/0x73C112a24a0A2d17fDf93930F8f67bBf6B4bdDC5" class="card-link">BSCscan</a>
+        </div>
+      </div>
+      <!-- Mission 18
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title" id="status18"></h5>
+          <h6 class="card-subtitle mb-2 text-muted" id="mission18_timeleft"></h6>
+          <p class="card-text" id="mission18"></p>
+          <a target="_blank" rel="noopener noreferrer" href="" class="card-link">BSCscan</a>
+        </div>
+      </div>-->
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
